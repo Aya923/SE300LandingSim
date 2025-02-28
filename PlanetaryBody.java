@@ -10,7 +10,7 @@ public class PlanetaryBody {
 	private double atmDensity;
 	
 	public PlanetaryBody(double m, double r, String n, double rr, double o) {
-		if(m>0) {
+		if(m<0) {
 			m = 0;
 		}
 		if(r<0) {
